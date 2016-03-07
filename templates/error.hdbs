@@ -1,0 +1,5 @@
+<p class="data-warning">There was a problem posting the data.</p>
+<p class="data-warning">Please try again later.</p>
+<p>
+<button id="my-btn" class="btn-small btn-info">Post Again</button>
+</p>

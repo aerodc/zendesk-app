@@ -1,0 +1,43 @@
+<h4> This ticket has been justed sent !<h4/>
+<table>
+<tr>
+<td> Ticket Id:</td>
+<td class="data"> {{form.ticket_id}}</td>
+</tr>
+
+<tr>
+<td> Ticket Subject:</td>
+<td class="data"> {{form.ticket_subject}}</td>
+</tr>
+
+<tr>
+<td> Ticket Status:</td>
+<td class="data"> {{form.ticket_status}}</td>
+</tr>
+
+<tr>
+<td> Ticket Priority:</td>
+<td class="data"> {{form.ticket_priority}}</td>
+</tr>
+
+<tr>
+<td> Requester Id:</td>
+<td class="data"> {{form.user_id}}</td>
+</tr>
+
+<tr>
+<td> Sent to:</td>
+<td class="data"> {{url}}</td>
+</tr>
+
+<tr>
+<td> Sent Date:</td>
+<td class="data"> {{form.sent_date}}</td>
+</tr>
+
+</table>
+<br>
+
+<p>
+<button id="my-btn" class="btn-small btn-info">Post Again</button>
+</p>
