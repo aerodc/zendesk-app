@@ -17,7 +17,7 @@
                  type: 'post',
                  dataType: 'json',
                  data: ticketInfo
-            }
+            };
             
         }
     },
